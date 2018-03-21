@@ -130,7 +130,8 @@ const pickMeEvent = () => {
     const selectedBreed = selected.nodeList[0].id
     const selectedLi = '<li id=' + `${selectedBreed}-adopt `+ 'class="adoptee">' + `${selectedBreed}` + '</li>'
     $l('.adopted-list').append(selectedLi);
-    $l('.adoptee').append('<button id=' + `${selectedBreed} ` + 'class="unadopt">unadopt</button>');
+    const currentId = `#${selectedBreed}-adopt`
+    $l(currentId).append('<button id=' + `${selectedBreed} ` + 'class="unadopt">unadopt</button>');
     addRemoveAdoptionEvent();
   });
 };
