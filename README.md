@@ -3,7 +3,7 @@
 Welcome to aDOMpt a dog!, a web app intended for browsing through different breeds of dogs and queuing the ones you love most for adoption. Input isn't translated to a real adoption facility, as the purpose of this app is to provide a demo for the [strawberryDOM](https://github.com/lsiler23/strawberryDOM) library.
 
 ## How it works
-![gif-demo]('./assets/adopt.gif')
+![gif-demo]('./assets/adompt.gif')
 
 Select a dog breed from the scrollable sidebar and feast your eyes on an adorable picture pulled with the strawberryDOM's XML request. If you think you'd be interested in adopting that dog, click 'Pick Me!' and the dog will be included in your list of adoptions. Change your mind? No worries - simply click 'unadopt' and your list will be cleared of that breed.
 
