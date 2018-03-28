@@ -42,7 +42,7 @@ h1 {
   margin-right: 20px;
 }
 
-img {
+.dog-photo {
   border-radius: 5px;
   margin-right: 20px;
 }
@@ -60,4 +60,29 @@ img {
 .adoptee {
   border-bottom: 1px solid lightgrey;
   padding: 17px;
+}
+
+.contact-icons {
+  display: flex;
+  margin-right: 20px;
+  margin-top: 7px;
+  justify-content: flex-end;
+}
+
+.github-icon {
+  padding: 5px;
+}
+
+.github-real {
+  width: 30px;
+  height: 30px;
+}
+
+.linkedin-icon {
+  padding: 9px;
+}
+
+.linkedin-real {
+  width: 25px;
+  height: 25px;
 }
