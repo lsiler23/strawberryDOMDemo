@@ -70,6 +70,6 @@ const pickMeEvent = () => {
 document.addEventListener('DOMContentLoaded', () => {
   populateMasterList();
   addFirstPic();
-  setTimeout(addClickEvent, 1000);
+  setTimeout(addClickEvent, 3000);
   setTimeout(pickMeEvent, 2000);
 });
