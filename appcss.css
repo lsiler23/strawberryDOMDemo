@@ -1,5 +1,6 @@
 body {
   font-family: 'IBM Plex Serif', serif;
+  overflow: hidden;
 }
 
 ul {
@@ -13,14 +14,20 @@ h1 {
 }
 
 #picker {
-  padding: 10px;
-  margin-left: 50px;
+  margin-left: 2px;
   border-radius: 5px;
   font-size: 20px;
+  height: 40px;
   margin-right: 100px;
   background-color: #e0eaf9;
-  margin-top: 217px;
+  margin-top: 50px;
   cursor: pointer;
+  width: 553px;
+}
+
+#picker:hover {
+  font-size: 15px;
+  transition: 0.2s;
 }
 
 .selected {
@@ -38,9 +45,11 @@ h1 {
 
 .dog-master-list {
   height: 500px;
+  width: 200px;
+  text-align: center;
   overflow-y: scroll;
   overflow-x: hidden;
-  margin-right: 20px;
+  margin-right: 44px;
   background-color: white;
 }
 
@@ -54,8 +63,22 @@ img {
   margin-right: 20px;
 }
 
+.dog-img {
+  min-height: 500px;
+  min-width: 500px;
+}
+
+.dog-pic {
+  width: 500px;
+  height: 370px;
+  border: 26px solid pink;
+  overflow: hidden;
+}
+
 .adopted-list {
   padding: 10px;
+  width: 208px;
+  margin-top: 30px;
 }
 
 .unadopt {
@@ -75,6 +98,26 @@ img {
   margin-right: 20px;
   margin-top: 7px;
   justify-content: flex-end;
+}
+
+.dogs-and-options {
+  overflow-y: scroll;
+  height: 500px;
+}
+
+.picker-and-pic {
+  margin-left: 33px;
+  width: 640px;
+}
+
+.dogs-and-options::-webkit-scrollbar {
+  width: 0;
+}
+
+h2 {
+  position: fixed;
+  top: 71px;
+  border-bottom: 2px solid lightgrey;
 }
 
 .github-icon {
