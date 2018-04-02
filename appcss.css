@@ -98,11 +98,12 @@ img {
   margin-right: 40px;
   margin-top: -12%;
   margin-left: 79%;
+  text-align: center;
 }
 
 .actual-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .dogs-and-options {
