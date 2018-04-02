@@ -65,8 +65,8 @@ img {
 }
 
 .dog-img {
-  min-height: 500px;
-  min-width: 500px;
+  height: 500px;
+  width: 500px;
 }
 
 .dog-pic {
@@ -95,10 +95,14 @@ img {
 }
 
 .contact-icons {
+  margin-right: 40px;
+  margin-top: -12%;
+  margin-left: 79%;
+}
+
+.actual-icons {
   display: flex;
-  margin-right: 20px;
-  margin-top: 7px;
-  justify-content: flex-end;
+  justify-content: space-around;
 }
 
 .dogs-and-options {
