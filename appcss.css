@@ -66,9 +66,10 @@ img {
 
 .dog-pic {
   width: 78%;
-  height: 58%;
+  height: 72%;
   border: 26px solid pink;
   background-size: cover;
+  background-position: center;
   overflow: hidden;
 }
 
