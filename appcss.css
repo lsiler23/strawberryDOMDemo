@@ -64,15 +64,11 @@ img {
   margin-right: 20px;
 }
 
-.dog-img {
-  height: 500px;
-  min-width: 511px;
-}
-
 .dog-pic {
   width: 78%;
   height: 58%;
   border: 26px solid pink;
+  background-size: cover;
   overflow: hidden;
 }
 

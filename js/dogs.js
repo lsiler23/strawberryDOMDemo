@@ -18,7 +18,7 @@ const populateMasterList = () => {
 };
 
 const queryPic = (result) => {
-  $l('img').attr('src', result)
+  $l('.dog-pic').attr('style', `background-image: url(${result})`);
 };
 
 const addFirstPic = () => {
